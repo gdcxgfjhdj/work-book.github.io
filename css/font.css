@@ -1,0 +1,243 @@
+
+
+a{
+  text-decoration: none; /*去字体下划线*/
+  color: rgb(255, 174, 174);
+}
+
+a:hover{
+  cursor:url("../image/music64_2.png"), auto;
+}
+
+.link_1{
+  margin-top: 10px; /* 增加上边距 */
+  margin-bottom: 5px; /* 增加下边距 */
+  font-weight: bold; /* 加粗 */
+}
+
+.navbar_text{
+  padding: 10px 10px 10px 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 4rem;
+  color: rgb(255, 255, 255);
+}
+
+.navbar_text:active {
+  font-size: 3.7em; /* 设置点击时的小字体大小 */
+}
+
+/*week font*/
+.week_part_title{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h2 {
+  font-size: 46px;
+  max-width: 90%; /* 图片宽度最大不超过容器宽度 */
+  color: rgb(255, 255, 255);
+  font-weight: bold; /* 加粗 */
+  text-transform: uppercase;
+  letter-spacing: 15px;
+  margin-top: 180px; /* 增加上边距 */
+  margin-bottom: 0px; /* 增加下边距 */
+}
+
+h3 {
+  font-size: 22px;
+  max-width: 90%; /* 图片宽度最大不超过容器宽度 */
+  color: rgb(255, 255, 255);
+  font-weight: bold; /* 加粗 */
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  margin-top: 110px; /* 增加上边距 */
+  margin-bottom: 40px; /* 增加下边距 */
+}
+
+h4 {
+  font-size: 16px;
+  max-width: 70%; /* 图片宽度最大不超过容器宽度 */
+  color: rgb(255, 255, 255);
+  font-weight: bold; /* 加粗 */
+  text-transform: uppercase;
+  margin-top: 10px; /* 增加上边距 */
+  margin-bottom: 0px; /* 增加下边距 */
+}
+
+p {
+  font-size: 16px;
+  color: rgb(255, 255, 255);
+  max-width: 70%; /* 图片宽度最大不超过容器宽度 */
+  margin-top: 5px; /* 增加上边距 */
+  margin-bottom: 5px; /* 增加下边距 */
+}
+
+/*spot light*/
+.week1_T {
+  position: relative;
+  /* 1rem=16px */
+  font-size: 8rem;
+  color: #333;
+  text-align: center;
+}
+
+.week1_T:after {
+  content: 'WEEK 1';
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  color: transparent;
+  background-image: linear-gradient(to right, #c23616, #192a56, #00d2d3, yellow, 
+  #6d214f, #2e86de,#4cd137, #e84118);
+
+  background-clip: text;
+
+  -webkit-background-clip: text;
+  
+  clip-path: circle(100px at 0% 50%);
+  -webkit-clip-path: circle(100px at 0% 50%);
+  animation: move 5s infinite;
+}
+
+.week2_T {
+  position: relative;
+  /* 1rem=16px */
+  font-size: 8rem;
+  color: #333;
+  text-align: center;
+}
+
+.week2_T:after {
+  content: 'WEEK 2';
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  color: transparent;
+  background-image: linear-gradient(to right, #c23616, #192a56, #00d2d3, yellow, 
+  #6d214f, #2e86de,#4cd137, #e84118);
+
+  background-clip: text;
+
+  -webkit-background-clip: text;
+  
+  clip-path: circle(100px at 0% 50%);
+  -webkit-clip-path: circle(100px at 0% 50%);
+  animation: move 5s infinite;
+}
+
+.week3_T {
+  position: relative;
+  /* 1rem=16px */
+  font-size: 8rem;
+  color: #333;
+  text-align: center;
+}
+
+.week3_T:after {
+  content: 'WEEK 3';
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  color: transparent;
+  background-image: linear-gradient(to right, #c23616, #192a56, #00d2d3, yellow, 
+  #6d214f, #2e86de,#4cd137, #e84118);
+
+  background-clip: text;
+
+  -webkit-background-clip: text;
+  
+  clip-path: circle(100px at 0% 50%);
+  -webkit-clip-path: circle(100px at 0% 50%);
+  animation: move 5s infinite;
+}
+
+.week4_T {
+  position: relative;
+  /* 1rem=16px */
+  font-size: 8rem;
+  color: #333;
+  text-align: center;
+}
+
+.week4_T:after {
+  content: 'WEEK 4';
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: transparent;
+  background-image: linear-gradient(to right, #c23616, #192a56, #00d2d3, yellow, 
+  #6d214f, #2e86de,#4cd137, #e84118);
+  background-clip: text;
+  -webkit-background-clip: text;
+  clip-path: circle(100px at 0% 50%);
+  -webkit-clip-path: circle(100px at 0% 50%);
+  animation: move 5s infinite;
+}
+
+.week5_T {
+  position: relative;
+  /* 1rem=16px */
+  font-size: 8rem;
+  color: #333;
+  text-align: center;
+}
+
+.week5_T:after {
+  content: 'WEEK 5';
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: transparent;
+  background-image: linear-gradient(to right, #c23616, #192a56, #00d2d3, yellow, 
+  #6d214f, #2e86de,#4cd137, #e84118);
+  background-clip: text;
+  -webkit-background-clip: text;
+  clip-path: circle(100px at 0% 50%);
+  -webkit-clip-path: circle(100px at 0% 50%);
+  animation: move 5s infinite;
+}
+
+.week6_T {
+  position: relative;
+  /* 1rem=16px */
+  font-size: 8rem;
+  color: #333;
+  text-align: center;
+}
+
+.week6_T:after {
+  content: 'WEEK 6';
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: transparent;
+  background-image: linear-gradient(to right, #c23616, #192a56, #00d2d3, yellow, 
+  #6d214f, #2e86de,#4cd137, #e84118);
+  background-clip: text;
+  -webkit-background-clip: text;
+  clip-path: circle(100px at 0% 50%);
+  -webkit-clip-path: circle(100px at 0% 50%);
+  animation: move 5s infinite;
+}
+
+@keyframes move {
+  0% {
+      clip-path: circle(100px at 0% 50%);
+      -webkit-clip-path: circle(100px at 0% 50%);
+  }
+
+  50% {
+      clip-path: circle(100px at 100% 50%);
+      -webkit-clip-path: circle(100px at 100% 50%);
+  }
+
+  100% {
+      clip-path: circle(100px at 0% 50%);
+      -webkit-clip-path: circle(100px at 0% 50%);
+  }
+}
+
