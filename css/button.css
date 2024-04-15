@@ -1,0 +1,79 @@
+.work_title{
+  position: absolute; 
+  width: 400px; 
+  height: 120px; 
+  text-align: center; 
+  font-size: 45px; 
+  line-height: 120px; 
+  color: #fff;
+  text-transform: uppercase; 
+  text-decoration: none; 
+  font-family: sans-serif; 
+  box-sizing: border-box; 
+  background: linear-gradient(
+    90deg,#03a9f4, #f441a5, #ffeb3b, 
+  #03a9f4, #f441a5, #ffeb3b, #03a9f4); 
+  border-radius: 60px; 
+  background-size: 400%; 
+}
+
+.work_title:active {
+  color: #000000; 
+}
+
+.work_title:hover{
+  animation: animate 8s linear infinite alternate; 
+}
+
+@keyframes animate{
+  0%{
+    background-position: 0%; 
+  }
+  50%{
+    background-position: 100%;
+  }
+  100%{
+    background-position: 0%;
+  }
+}
+
+.work_title::before{ 
+  content: ''; 
+  position: absolute; 
+  top:-5px; 
+  left: -5px;
+  right: -5px;
+  bottom: -5px; 
+  z-index: -1; 
+  background: linear-gradient(
+    90deg,#03a9f4, #f441a5, #ffeb3b, #03a9f4, 
+  #f441a5, #ffeb3b, #03a9f4);
+  border-radius: 40px;
+  background-size: 400%;
+  filter: blur(20px); 
+  opacity: 0; 
+  transition: 1s; 
+}
+
+.work_title:hover::before{
+  filter: blur(20px);
+  opacity: 1;
+  animation: animate 8s linear infinite;
+}
+
+.week_list{
+  display: grid;
+  place-items: center; 
+  flex-wrap: wrap; 
+  padding: 0; 
+  margin: 0; 
+  padding-top: 300px;
+}
+
+.Button_section{
+  padding-right: 400px;
+  padding-top: 5%;
+  padding-bottom: 5%; 
+  margin: 0; 
+  height: 300px;
+}

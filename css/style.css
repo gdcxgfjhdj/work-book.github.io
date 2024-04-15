@@ -1,0 +1,142 @@
+body {
+    margin: 0; 
+    padding: 0; 
+  }
+
+    /* Custom Cursor
+
+Change the code --> your image/gif */
+
+* {
+    cursor:url("../image/music64x64.png"), auto;
+  }
+
+.navbar {
+    position: fixed; 
+    display: block;
+    width: 100%; 
+    padding-top: 0.5vw; 
+    padding-bottom: 0.5vw; 
+    margin-top: 0; 
+    top: 0; 
+    z-index: 2; 
+    }
+
+.background_gif{
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    background: url('../image/Musical_ascensio.gif') center center / cover no-repeat;
+    z-index: -1; 
+    }
+
+.navbar_content {
+    margin: 0; 
+    padding: 0; 
+    display: flex; 
+    }
+
+.week_part{
+  
+    display: grid;
+    place-items: center; 
+    flex-wrap: wrap;
+    margin: 0; 
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 50px;
+}
+    
+    /* <h2> Text picture display */
+    @import url(https://fonts.googleapis.com/css?family=Playfair+Display);
+    @import url(https://fonts.googleapis.com/css?family=Fauna+One);
+    
+    .sample {
+      font-family: 'Fauna One', Arial, sans-serif;
+      position: relative;
+      margin: 10px 20px;
+      min-width: 330px;
+      max-width: 395px;
+      min-height: 565px;
+      width: 100%;
+      color: #fff;
+      text-align: right;
+      line-height: 1.4em;
+      background-color: #1a1a1a;
+      font-size: 16px;
+    }
+    
+    .sample * {
+      -webkit-box-sizing: border-box;
+      box-sizing: border-box;
+      -webkit-transition: all 0.35s ease;
+      transition: all 0.35s ease;
+    }
+    
+    .sample img {
+      position: absolute;
+      right: 0%;
+      top: 50%;
+      opacity: 1;
+      width: 100%;
+     
+      -webkit-transform: translate(0%, -50%);
+      transform: translate(0%, -50%);
+    }
+    
+    .sample figcaption {
+      position: absolute;
+      right: 50%;
+      top: 50%;
+      left: 0;
+      -webkit-transform: translateY(-50%);
+      transform: translateY(-50%);
+      padding: 20px 0 20px 20px;
+    }
+    
+    .sample h2,
+    .sample p {
+      margin: 0;
+      width: 100%;
+      -webkit-transform: translateX(20px);
+      transform: translateX(20px);
+      opacity: 0;
+    }
+    
+    .sample h2 {
+      font-family: 'Playfair Display', Arial, sans-serif;
+      text-transform: uppercase;
+      margin-bottom: 5px;
+    }
+    
+    .sample p {
+      font-size: 0.8em;
+    }
+    
+    .sample a {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      z-index: 1;
+    }
+    
+    .sample:hover img,
+    .sample.hover img {
+      width: 55%;
+      right: -10%;
+    }
+    
+    .sample:hover figcaption h2,
+    .sample.hover figcaption h2,
+    .sample:hover figcaption p,
+    .sample.hover figcaption p {
+      -webkit-transform: translateX(0px);
+      transform: translateX(0px);
+      opacity: 1;
+    }
+    
+  
+    
+    

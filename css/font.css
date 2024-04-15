@@ -1,0 +1,117 @@
+
+
+a{
+  text-decoration: none; 
+}
+
+a:hover{
+  cursor:url("../image/music64_2.png"), auto;
+}
+
+.navbar_text{
+  padding: 10px 10px 10px 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 4rem;
+  color: rgb(255, 255, 255);
+  
+  z-index: 2; 
+}
+
+.navbar_text:active {
+  font-size: 3.7em; 
+}
+.week_part_title{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.week1_T {
+  position: relative;
+  /* 1rem=16px */
+  font-size: 8rem;
+  color: #333;
+  text-align: center;
+}
+
+.week1_T:after {
+  content: 'WEEK 1';
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: transparent;
+  background-image: linear-gradient(to right, #c23616, #192a56, #00d2d3, yellow, 
+  #6d214f, #2e86de,#4cd137, #e84118);
+  background-clip: text;
+  -webkit-background-clip: text;
+  clip-path: circle(100px at 0% 50%);
+  -webkit-clip-path: circle(100px at 0% 50%);
+  animation: move 5s infinite;
+}
+
+.week2_T {
+  position: relative;
+  /* 1rem=16px */
+  font-size: 8rem;
+  color: #333;
+  text-align: center;
+}
+
+.week2_T:after {
+  content: 'WEEK 2';
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  color: transparent;
+  background-image: linear-gradient(to right, #c23616, #192a56, #00d2d3, yellow, 
+  #6d214f, #2e86de,#4cd137, #e84118);
+
+  background-clip: text;
+
+  -webkit-background-clip: text;
+  
+  clip-path: circle(100px at 0% 50%);
+  -webkit-clip-path: circle(100px at 0% 50%);
+  animation: move 5s infinite;
+}
+
+.week3_T {
+  position: relative;
+  /* 1rem=16px */
+  font-size: 8rem;
+  color: #333;
+  text-align: center;
+}
+
+.week3_T:after {
+  content: 'WEEK 3';
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: transparent;
+  background-image: linear-gradient(to right, #c23616, #192a56, #00d2d3, yellow, 
+  #6d214f, #2e86de,#4cd137, #e84118);
+  background-clip: text;
+  -webkit-background-clip: text;
+  clip-path: circle(100px at 0% 50%);
+  -webkit-clip-path: circle(100px at 0% 50%);
+  animation: move 5s infinite;
+}
+
+@keyframes move {
+  0% {
+      clip-path: circle(100px at 0% 50%);
+      -webkit-clip-path: circle(100px at 0% 50%);
+  }
+
+  50% {
+      clip-path: circle(100px at 100% 50%);
+      -webkit-clip-path: circle(100px at 100% 50%);
+  }
+
+  100% {
+      clip-path: circle(100px at 0% 50%);
+      -webkit-clip-path: circle(100px at 0% 50%);
+  }
+}
