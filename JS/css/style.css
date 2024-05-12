@@ -1,0 +1,152 @@
+body {
+    margin: 0; /*外边距*/
+    padding: 0; /*内边距*/
+  }
+
+    /* Custom Cursor
+
+Change the code --> your image/gif */
+
+* {
+    cursor:url("../image/music32x32.png"), auto;
+  }
+
+.navbar {
+    z-index: 2; /*堆叠顺序*/
+    position: fixed; /*固定*/
+    display: block;
+    width: 100%; /*外边距*/
+    margin: 0; /*外边距*/
+    transition: background-color 0.6s, color 0.6s; /* 过渡效果 */
+    background-color: transparent; /* 初始背景透明 */
+    padding: 20px 10px;
+    }
+
+.scrolled {
+  height: 85px;
+  background-color: rgba(18, 18, 18, 0.5); /* 半透明背景 */
+  backdrop-filter: blur(15px); /* 毛玻璃效果 */
+  color: white; /* 滚动后的字体颜色 */
+
+  padding: 0px 10px;
+}
+
+.navbar_content {
+  margin: 0; /*外边距*/
+  padding: 0; /*内边距*/
+  display: flex; /*弹性布局容器*/
+}
+
+.background_gif{
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    background: url('../image/Musical_ascensio.gif') center center / cover no-repeat;
+    z-index: -1; /*堆叠顺序*/
+    }
+
+  .week_part {
+    display: flex; /* 弹性布局 */
+    justify-content: center; /* 在主轴上居中对齐 */
+    flex-wrap: wrap; /* 自动换行 */
+    flex-direction: column; /* 内容垂直排列 */
+    align-items: center; /* 在交叉轴上居中对齐 */
+    margin: 0; /* 外边距 */
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+   
+img {
+  max-width: 50%; /* 图片宽度最大不超过容器宽度 */
+  height: auto; /* 保持图片纵横比 */
+  display: block; /* 避免图片下方留空 */
+  margin-top: 50px; /* 图片上方留空 */
+  margin-bottom: 10px;
+  }
+  
+    /* <h2> Text picture display */
+    @import url(https://fonts.googleapis.com/css?family=Playfair+Display);
+    @import url(https://fonts.googleapis.com/css?family=Fauna+One);
+    
+  footer {
+      background-color: #7c7c7c;
+      padding: 10px;
+      margin-top: 50px;
+      color: rgb(255, 255, 255);
+      text-align: center;
+  }
+  
+  audio::-webkit-media-controls {
+    display: none !important;
+  }
+  audio{
+    position:fixed;
+    bottom: 0;
+    right: 0;
+    z-index: 1; /* 设置层级，确保位于下方容器之上 */
+  }
+
+  @media (max-width: 1000px) { /* 在宽度小于等于600px的情况下应用以下样式 */
+    img {
+      max-width: 95%; /* 图片宽度最大不超过容器宽度 */
+    }
+
+    .week_part_title{
+      padding-top: 80px; /* 增加上边距 */
+    }
+
+    .navbar_text{
+      font-size: 3rem;
+      padding-left: 0px;
+    }
+
+    h2 {
+      font-size: 30px;
+      letter-spacing: 3vw;
+
+      margin-top: 40px; /* 增加上边距 */
+      margin-bottom: 40px; /* 增加下边距 */
+    }
+
+    h3 {
+      font-size: 20px;
+      letter-spacing: 3vw;
+      padding-left: 3vw;
+
+      margin-top: 75px; /* 增加上边距 */
+      margin-bottom: 15px; /* 增加下边距 */
+    }
+
+    
+    
+    h4 {
+      font-size: 16px;
+      letter-spacing: 2px;
+      margin-top: 5px; /* 增加上边距 */
+      margin-bottom: 0px; /* 增加下边距 */
+    }
+    
+    p {
+      font-size: 16px;
+      margin-top: 1px; /* 增加上边距 */
+      margin-bottom: 2.5px; /* 增加下边距 */
+    }
+
+    .box {
+      margin-bottom: 50px;
+      margin-top: 100px;
+      padding-top: 30px;
+    }
+
+    .scrolled {
+      height: 66px;
+
+    
+      padding: 0px 10px;
+    }
+  }
+  
+    
+    

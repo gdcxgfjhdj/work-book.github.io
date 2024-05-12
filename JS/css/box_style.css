@@ -1,0 +1,26 @@
+.content {
+  width: 80%;
+  margin: 0 auto;
+  perspective: 1000px; /* 添加透视效果以增强3D效果 */
+}
+
+.box {
+  background-color: rgba(43, 43, 43, 0.5); /* 半透明背景 */
+  backdrop-filter: blur(20px); /* 毛玻璃效果 */
+  width: 100%;
+  height: auto;
+  margin-bottom: 100px;
+  margin-top: 200px;
+  transition: transform 0.6s ease, filter 0.6s ease;
+  transform-origin: center center; /* 设置变换的原点为中心 */
+  transform: scale(0.5);
+  filter: blur(4px);
+  padding-bottom: 60px;
+  padding-top: 60px;
+}
+
+
+/* 当鼠标悬停时取消模糊效果 */
+.box:hover {
+  filter: none;
+}
