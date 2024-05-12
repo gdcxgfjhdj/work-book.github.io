@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Week 7</title>
+<!-- 主要样式 -->
+<link rel="stylesheet" href="./css/font.css">
+<link rel="stylesheet" href="./css/style.css">
+<link rel="stylesheet" href="./css/button.css">
+<!-- 缩放动画样式 -->
+<link rel="stylesheet" href="./css/box_style.css">
+</head>
+<body>
+<!-- 导航栏 -->
+<nav class="navbar">
+    <div class="navbar_content">
+        <a href="index.html" class="navbar_text">
+            HOME 
+        </a>
+    </div>
+</nav>
+<div class="background_gif"></div>
+
+<!-- content -->
+<div class="content">
+
+    <div class="week_part_title">
+        <h1 class="week7_T">WEEK 7</h1>
+    </div> 
+
+  <div class="box">
+    <section class="week_part">
+        <h2>Question</h2>
+        <h3>WOT IS PHYSICAL COMPUTING?</h3>
+        <img src="./image/week7_1.png">
+        <a href="https://zhuanlan.zhihu.com/p/365060027">link : https://zhuanlan.zhihu.com/p/365060027</a>
+        <p>Physical computing is an approach to understanding the way humans interact with the digital world. It often involves creating interactive projects that use sensors and microcontrollers to translate analog inputs into digital outputs, or to control devices like motors and lights. This field intersects with electrical engineering, robotics, and computer science, and is used in education, art, and product design to create engaging, hands-on experiences.</p>  
+        <h3>WOT IS ARDUINO?</h3>
+        <img src="./image/week7_2.png">
+        <p>Arduino is an open-source electronics platform that combines easy-to-use hardware and software. Arduino boards can read inputs, like a finger on a button or a message on Twitter, and turn them into outputs, such as activating a motor or turning on an LED. You can program these boards using the Arduino programming language and the Arduino Software (IDE). It's widely used for prototyping, education, and creating interactive projects. Arduino has fostered a global community where people create, share, and learn about digital making.</p>
+        <h3>WOT'S IN THE BOX?</h3>
+        <img src="./image/week7_3.png">
+    </section>
+  </div>
+  
+  <div class="box">
+    <section class="week_part">
+        <h2>PRACTICY</h2>
+        <h3>WOT'S IN THE BOX</h3>
+        <img src="./image/week7_4.png">
+        <p>We opened the box and took out the electronic components inside, placing them on a piece of paper and labeling their names. I recognized a few components, but most of them were unfamiliar to me. This activity introduced me to many new and fascinating components, such as the Ultrasonic Ranging Module. Initially, I thought it was a type of electronic component that emitted sound like a speaker, but I was surprised to learn that its function is actually ultrasonic ranging. This is very interesting.</p>
+        <h3>PUSH-BUTTON LED</h3>
+        <img src="./image/week7_5.png">
+        <h4>Components:</h4>
+        <p>•Breadboard×1
+            <br>•Arduino Uno R3×1
+            <br>•jumper wires×4
+            <br>•LED ×1
+            <br>•resistor 220Ω×1
+            <br>•Push-button or momentary switch×1
+            <br>•3.3V Powersource ×1
+        </p>
+        <p>In this activity, my group members and I constructed our first circuit in class. First, we downloaded the Arduino IDE and then connected the Arduino UNO to the computer.</p>
+        <p>Next, we proceeded to set up the circuit.</p>
+        <p>During the setup, we encountered a small issue where the LED did not light up. Upon inspection, we discovered that the positive and negative terminals of the LED were accidentally reversed.This circuit is not an Arduino circuit perse, just an led + resistor + power/ground.In this project, the LED is controlled by a push button switch, and the control board here only plays the role of power supply in the circuit.</p>
+        <h3>LED BLINK</h3>
+        <img src="./image/week7_6.png">
+        <h4>Components:</h4>
+        <p>•Arduino Uno R3×1
+            <br>•Breadboard x1
+            <br>•USB cable x1
+            <br>•Jumper M/M x2
+            <br>•LED x1
+            <br>•Resistor 220Ω x1
+        </p>
+        <p>Unlike the previous project, in this project, we will make the LED blink. In order to make the LED blink, we need to alternate pin 13 of the control board between high and low output levels. By adjusting the delay data in the sketch code to control the duration of the voltage being high and low, we achieved the blinking of the LED. Initially, it didn't respond, but as we successfully adjusted the delay data for turning on and off in the code, the LED started blinking.</p>
+        <h3>VCA INTERACIVE HEADSPACE ULTRASONIC BUZZER</h3>
+        <img src="./image/week7_7.png">
+        <h4>Component:</h4>
+        <p>•Arduino Uno R3×1
+            <br>•USB cable x1
+            <br>•Jumper F/M x4
+            <br>•Ultrasonic ranging module x1
+            <br>•Passive buzze×1
+        </p>
+        <p>In this activity, We hooked the sensor up to a Piezzo buzzer, which acts as warning when objects are too close.We use the HC-SR04 communication protocol to operate the module, obtain the range of time, and calculate the distance.Passive buzze makes a sound depending on the distance from the object</p>
+    </section>
+  </div>
+</div>
+
+<footer>
+    <div class="footer_T">
+        BY JIMA
+    </div> 
+</footer>
+
+<audio controls autoplay>
+    <source src="./image/background_music.mp3" type="audio/mpeg">
+</audio>
+
+<!-- JavaScript -->
+<script src="./JS/scaling_animation.js"></script>
+</body>
+</html>

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Week 8</title>
+<!-- 主要样式 -->
+<link rel="stylesheet" href="./css/font.css">
+<link rel="stylesheet" href="./css/style.css">
+<link rel="stylesheet" href="./css/button.css">
+<!-- 缩放动画样式 -->
+<link rel="stylesheet" href="./css/box_style.css">
+</head>
+<body>
+<!-- 导航栏 -->
+<nav class="navbar">
+    <div class="navbar_content">
+        <a href="index.html" class="navbar_text">
+            HOME 
+        </a>
+    </div>
+</nav>
+<div class="background_gif"></div>
+
+<!-- content -->
+<div class="content">
+
+    <div class="week_part_title">
+        <h1 class="week8_T">WEEK 8</h1>
+    </div> 
+
+  <div class="box">
+    <section class="week_part">
+        <h2>PHYSICAL COMPUTING EXAMPLE</h2>
+        <img src="./image/week8_1.png">
+        <a href="https://www.sciencebuddies.org/blog/wearables-science-projects">link : https://www.sciencebuddies.org/blog/wearables-science-projects</a>
+        <p>From electronic textiles and sewn circuits to personalized clothing and accessories, and then to DIY health and safety wearable devices.Copy of fish Playground</p>
+    </section>
+  </div>
+  
+  <div class="box">
+    <section class="week_part">
+        <h2>PRACTICE</h2>
+        <h3>FISH PLAYGROUND</h3>
+        <img src="./image/week8_2.png">
+        <4>Components:</4>
+        <p>•Arduino Uno R3×1
+            <br>•10 kΩ resistance×1
+            <br>•A photoresistor×1
+            <br>•servo×1
+            <br>•Breadboard×1
+        </p>
+        <p>We attempted to assemble the Fish Playground project. We connected a 10kΩ resistor to the photoresistor and the Arduino Uno R3 board. Then, we installed a servo motor and connected it to the circuit. After completing the circuit assembly, we wrote code to control the project's functionality. The process went smoothly without encountering any issues.</p>
+        <h3>CONTROL LED BY POTENTIOMETER</h3>
+        <img src="./image/week8_3.png">
+        <4>Components:</4>
+        <p>•Arduino Uno R3×1
+            <br>•resistance×1
+            <br>•USB cable x1
+            <br>•LED×1
+            <br>•Breadboard×1
+            <br>•Jumper M/M ×5
+            <br>•Potentiometer×1
+        </p>
+        <p>We attempted to control the brightness of an LED using Arduino Uno R3. I connected a 10k-ohm potentiometer to the 5V and GND pins, with its wiper connected to analog pin A0. Next, I connected the longer leg of the LED to digital pin 9 through a 220-ohm resistor, and the shorter leg to GND. After completing the circuit setup.In the code, the value read from the potentiometer needs to be adjusted to control the brightness of the LED. By turning the potentiometer knob, the voltage value of the pin connected to the potentiometer changes, thereby adjusting the LED brightness. The code reads this voltage value using the analogRead() function and stores it in the potValue variable. Then, the map() function maps this voltage value to the LED brightness range (0-255) and stores it in the brightness variable. Finally, the mapped brightness value is written to the LED pin using the analogWrite() function to control the LED brightness.. This allowed us to adjust the LED brightness using the potentiometer.</p>
+        <h3>LED MATRIX</h3>
+        <img src="./image/week8_4.png">
+        <h4>Component:</h4>
+        <p>•Control board x1
+           <br>• Breadboard x1
+           <br>• IUSB cable x1
+           <br>• LED matrix x1
+           <br>• 74HC595 x1
+           <br>• R220 x8
+           <br>• Jumper M/M x33
+        </p>
+        <p>The LED matrix is a square display module arranged by a grid of leds. This is a monochrome LED matrix with 8 rows and 8 columns, containing a total of 64 leds.In this practice, my team and I first drew an 8x8 grid on grid paper and designed several patterns. Then, following the instructions, we laid out the circuit and filled in the code in the sketch, and inputted the corresponding values according to the designed patterns. However, the LED matrix did not display anything. We repeatedly checked the circuit and even replaced the Arduino Uno R3, but still no response. This was the only project that didn't succeed.</p>
+    </section>
+  </div>
+</div>
+
+<footer>
+    <div class="footer_T">
+        BY JIMA
+    </div> 
+</footer>
+
+<audio controls autoplay>
+    <source src="./image/background_music.mp3" type="audio/mpeg">
+</audio>
+
+<!-- JavaScript -->
+<script src="./JS/scaling_animation.js"></script>
+</body>
+</html>
